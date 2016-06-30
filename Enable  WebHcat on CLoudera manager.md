@@ -1,7 +1,7 @@
 
-#Enable  WebHcat on CLoudera manager
+##Enable  WebHcat on Cloudera manager
 
-###Add webchat instance from cloudera manager
+####Add webchat instance from cloudera manager
 + Go to Cloudera manager and click Hive-> Instances -> Add Role Instances -> Select a host for WebHCat Server -> Finished
 + Start WebHCat server, now the WebHCat server is running and metadata related operation should work fine.
 + We need additional configuration for Hive, Pig, Mapreduce Jar and Mapreduce Streaming.
