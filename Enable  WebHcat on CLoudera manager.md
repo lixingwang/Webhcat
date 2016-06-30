@@ -43,7 +43,7 @@
     </property>
     <property>
         <name>templeton.hive.properties</name>
-        <value>hive.metastore.local=false,hive.metastore.uris=thrift://cdh573.na.tibco.com:9083,hive.metastore.sasl.enabled=true,hive.metastore.execute.setugi=true,hive.exec.mode.local.auto=false,hive.metastore.kerberos.principal=hive/_HOST@BGDATA.COM</value>
+        <value>hive.metastore.local=false,hive.metastore.uris=thrift://metadatahostname:9083,hive.metastore.sasl.enabled=true,hive.metastore.execute.setugi=true,hive.exec.mode.local.auto=false,hive.metastore.kerberos.principal=hive/_HOST@BGDATA.COM</value>
         <description>Mainly forcus on the hive metastore properties</description>
     </property>
 ```
